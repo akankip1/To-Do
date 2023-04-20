@@ -5,7 +5,7 @@ let todos;
            }
            else{
            todos=[{
-            title: 'gym',
+            title: 'Default Sample',
             DueDate:'23-04-2023',
             id:1
            }];
