@@ -5,17 +5,18 @@ let todos;
            }
            else{
            todos=[{
-            title: 'Default Sample',
+            title: 'gym',
             DueDate:'23-04-2023',
             id:1
            }];
         }
-           render();
+           //render();
            function createitem(dateval,title){
+            const id = '' + new Date().getTime();
             todos.push({
                 title: title,
                 DueDate: dateval,
-                id:"id"
+                id:id
             });
             saveTodos();
            } 
